@@ -1,0 +1,12 @@
+.registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    padding: 60px   ;
+}
+
+.form-container {
+    display: flex;
+    gap: 24px;
+}

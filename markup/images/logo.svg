@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22.875204"
+   height="19.066803"
+   viewBox="0 0 6.0523977 5.0447583"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-0.68672329,-0.44811401)">
+    <g
+       id="g12">
+      <g
+         id="g18"
+         transform="translate(-0.03307294,-0.10748698)">
+        <rect
+           style="fill:#f2f2f2;stroke-width:0.264583"
+           id="rect12"
+           width="1.3559896"
+           height="2.4722004"
+           x="2.6292968"
+           y="1.9513021" />
+        <path
+           style="fill:#f2f2f2;stroke-width:0.264583"
+           id="path13"
+           d="M 3.6876302,5.192448 C 3.6117289,5.3277814 2.2912552,5.2098563 2.1361024,5.2117906 1.9809496,5.2137248 0.66382618,5.3645325 0.58457466,5.2311334 0.50532315,5.0977343 1.2676861,4.013133 1.3435874,3.8777996 1.4194886,3.7424663 1.9474471,2.5264001 2.1025999,2.5244658 c 0.1551528,-0.00193 0.7132635,1.200592 0.792515,1.3339911 0.079252,0.1333992 0.8684165,1.1986577 0.7925153,1.3339911 z"
+           transform="translate(1.2319661,0.3141927)" />
+        <path
+           style="fill:#f2f2f2;stroke-width:0.264583"
+           id="path15"
+           d="M 3.6876302,5.192448 C 3.6117289,5.3277814 2.2912552,5.2098563 2.1361024,5.2117906 1.9809496,5.2137248 0.66382618,5.3645325 0.58457466,5.2311334 0.50532315,5.0977343 1.2676861,4.013133 1.3435874,3.8777996 1.4194886,3.7424663 1.9474471,2.5264001 2.1025999,2.5244658 c 0.1551528,-0.00193 0.7132635,1.200592 0.792515,1.3339911 0.079252,0.1333992 0.8684165,1.1986577 0.7925153,1.3339911 z"
+           transform="matrix(0.42780139,0,0,0.49403299,2.3858475,-0.6161293)" />
+        <path
+           style="fill:#afc6e9;stroke:#dfdfdf;stroke-width:0.165;stroke-dasharray:none;stroke-opacity:1"
+           d="M 3.3458021,0.71933593 2.6458333,1.8272786 2.6789062,4.1010416 1.8190104,5.4983723 4.8865234,5.5066406 3.9852864,4.0183593 3.9439453,1.8355469 Z"
+           id="path19" />
+        <text
+           xml:space="preserve"
+           style="font-size:2.48175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#afc6e9;stroke:#dfdfdf;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           x="0.63049984"
+           y="3.4010804"
+           id="text21"
+           transform="scale(1.1294854,0.88535895)"><tspan
+             id="tspan21"
+             style="stroke-width:0;stroke-dasharray:none"
+             x="0.63049984"
+             y="3.4010804">к   с</tspan><tspan
+             style="stroke-width:0;stroke-dasharray:none"
+             x="0.63049984"
+             y="6.5032678"
+             id="tspan22" /></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.48175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#afc6e9;stroke:#dfdfdf;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           x="0.41309655"
+           y="5.1312132"
+           id="text24"
+           transform="scale(1.1294854,0.88535895)"><tspan
+             id="tspan23"
+             style="stroke-width:0;stroke-dasharray:none"
+             x="0.41309655"
+             y="5.1312132">м   с</tspan><tspan
+             style="stroke-width:0;stroke-dasharray:none"
+             x="0.41309655"
+             y="8.2334003"
+             id="tspan24" /></text>
+      </g>
+      <ellipse
+         style="fill:#80b3ff;stroke-width:0.246781"
+         id="path16"
+         cx="3.3184831"
+         cy="2.9506834"
+         rx="0.42744017"
+         ry="0.41240835" />
+      <ellipse
+         style="fill:#d5e5ff;stroke-width:0.199918"
+         id="ellipse16"
+         cx="3.3228679"
+         cy="2.9565301"
+         rx="0.34997377"
+         ry="0.33055705" />
+    </g>
+  </g>
+</svg>

@@ -1,10 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Главная</title>
 </head>
 <body>
+    <header>
+        <img class="logo" src="./images/logo.svg" alt="лого" class="logo">
 
+        <nav>
+            <a href="#">Регистрация</a>
+            <a href="#login">Авторизация</a>
+            <a href="#">Личный кабинет</a>
+            <a href="#aboutus">О нас</a>
+            <a href="#">Конкурсы</a>
+            <a href="#search">Поиск</a>
+            <a href="#contacts">Контакты</a>
+            <img src="images/switch-theme.svg" alt="переключение темы" class="switch_theme">
+        </nav>
+    </header>
+
+    <section class="main">
+
+        <h2>Популярные конкурсы</h2>
+
+        <div class="main__slider">
+            <div class="slider-arrow slider-arrow-left">
+                <img src="./images/arrow-left.svg" alt="назад">
+            </div>
+
+            <div class="main__current">
+                <div class="main__top">
+                    <div class="main__current-title">Запуск ракеты</div>
+                    <div class="main__current-rating">4.5 <img src="./images/star.svg" alt="звезда"></div>
+                </div>
+
+                <img class="main__current-image" src="./images/maket-raketi-vostok-11.jpg" alt="Текущий конкурс">
+
+                <div class="main__bottom">
+                    <div class="dots">
+                        <div class="dot dot--active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+
+                    <button class="btn">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+
+            <div class="slider-arrow slider-arrow-right">
+                <img src="./images/arrow-right.svg" alt="вперед">
+            </div>
+        </div>
+    </section>
+
+    <section class="greeting">
+        <h2>Приветствие от организатора</h2>
+        <video src="./videos/hello.mp4" autoplay muted></video>
+    </section>
+
+    <section class="aboutus">
+        <div class="aboutus__information">
+            <h2>О нас</h2>
+            <p>Мероприятие "Моя семья - мой космос" проходит уже несколько лет подряд в разных частях России. В этом году в качесте основого города выбран Челябинск. </p>
+            <p>Посетив его вы сможете ощутить удовольствие, а если прийдете вместе с своей семьей </p>
+        </div>
+        <img src="./images/around_earth.jpg" alt="фото секции о нас" class="aboutus__image">
+    </section>
+
+    <section class="login">
+        <form class="form">
+            <h3 class="form__title">Авторизация</h3>
+            <p>
+                <label for="login-email">Email</label>
+                <input id="login-email" type="email" placeholder="example@yandex.ru" required>
+            </p>
+            <p>
+                <div class="form__input-top">
+                    <label for="login-password">Пароль</label>
+                    <a href="#">Забыли пароль?</a>
+                </div>
+                <input id="login-password" type="password" placeholder="***********" required>
+            </p>
+            <button>Войти</button>
+        </form>
+    </section>
+
+    <section class="search">
+        <h2>Поиск конкурсов</h2>
+        <div class="search__input">
+            <input id="search-query" type="text" placeholder="Запуск ракеты">
+            <button>Найти</button>
+        </div>
+    </section>
+
+    <section class="competitions">
+        <div class="competitions__cards">
+            <div class="card">
+                <img class="card__image" src="./images/maket-raketi-vostok-11.jpg" alt="фото карточки конкурса">
+                <h4>Запуск ракеты</h4>
+                <div class="card__description">
+                    соберите простую модель ракеты и запустите её.
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Количество записей</div>
+                    <span>
+                        20/100 <img src="./images/human.svg" alt="Иконка людей">
+                    </span>
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Рейтинг</div>
+                    <span>
+                        4.4/10 <img src="./images/star.svg" alt="Иконка рейтинга">
+                    </span>
+                </div>
+                <button>Перейти</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./images/museum.jpg" alt="фото карточки конкурса">
+                <h4>Посетите музей космонавтики</h4>
+                <div class="card__description">
+                    в нём пройдет экскурсия по истории исследования космоса
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Количество записей</div>
+                    <span>
+                        15/100 <img src="./images/human.svg" alt="Иконка людей">
+                    </span>
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Рейтинг</div>
+                    <span>
+                        4.6/10 <img src="./images/star.svg" alt="Иконка рейтинга">
+                    </span>
+                </div>
+                <button>Перейти</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./images/earth_analog.jpg" alt="фото карточки конкурса">
+                <h4>Попробуйте еду космонавтов</h4>
+                <div class="card__description">
+                    вы сможете узнать, чем же они питаются
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Количество записей</div>
+                    <span>
+                        60/100 <img src="./images/human.svg" alt="Иконка людей">
+                    </span>
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Рейтинг</div>
+                    <span>
+                        4.8/10 <img src="./images/star.svg" alt="Иконка рейтинга">
+                    </span>
+                </div>
+                <button>Перейти</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./images/rocket_inside.jpg" alt="фото карточки конкурса">
+                <h4>Сыграйте в симулятор управления ракетой</h4>
+                <div class="card__description">
+                    вам предстоит вывести ракету в космос
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Количество записей</div>
+                    <span>
+                        8.5/100 <img src="./images/human.svg" alt="Иконка людей">
+                    </span>
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Рейтинг</div>
+                    <span>
+                        8.0/10 <img src="./images/star.svg" alt="Иконка рейтинга">
+                    </span>
+                </div>
+                <button>Перейти</button>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./images/family_and_cosmos.jpg" alt="фото карточки конкурса">
+                <h4>Семейные испытания</h4>
+                <div class="card__description">
+                    пройдите вместе с семьёй несколько сложных задач
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Количество записей</div>
+                    <span>
+                        20/100 <img src="./images/human.svg" alt="Иконка людей">
+                    </span>
+                </div>
+                <div class="card__stat">
+                    <div class="card__stat-label">Рейтинг</div>
+                    <span>
+                        4.4/10 <img src="./images/star.svg" alt="Иконка рейтинга">
+                    </span>
+                </div>
+                <button>Перейти</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>Отзывы</h2>
+        <div class="slider">
+
+            <div class="reviews-list">
+                <div class="slider-arrow review-card__arrow-left">
+                    <img src="./images/arrow-left.svg" alt="назад">
+                </div>
+                <div class="review-card">
+                    <img class="review-card__avatar" src="./images/woman-avatar-1.jpg" alt="аватар">
+                    <div class="review-card__data">
+                        <div class="review-card__detail review-card__who">Анна</div>
+                        <div class="review-card__detail review-card__competition">Конкурс: <b>Запуск ракеты</b></div>
+                        <div class="review-card__detail review-card__content">Мне и моей семье очень понравился конкурс, хотелось быть видеть больше таких же мероприятий в моем городе</div>
+                        <div class="review-card__detail review-card__date">12.06.2020</div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img class="review-card__avatar" src="./images/avatar-man-1.jpg" alt="аватар">
+                    <div class="review-card__data">
+                        <div class="review-card__detail review-card__who">Иван</div>
+                        <div class="review-card__detail review-card__competition">Конкурс: <b>Запуск ракеты</b></div>
+                        <div class="review-card__detail review-card__content">Мне и моей семье очень понравился конкурс, хотелось быть видеть больше таких же мероприятий в моем городе</div>
+                        <div class="review-card__detail review-card__date">12.06.2020</div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <img class="review-card__avatar" src="./images/avatar-woman-2.jpg" alt="аватар">
+                    <div class="review-card__data">
+                        <div class="review-card__detail review-card__who">Анна</div>
+                        <div class="review-card__detail review-card__competition">Конкурс: <b>Запуск ракеты</b></div>
+                        <div class="review-card__detail review-card__content">Мне и моей семье очень понравился конкурс, хотелось быть видеть больше таких же мероприятий в моем городе</div>
+                        <div class="review-card__detail review-card__date">12.06.2020</div>
+                    </div>
+                </div>
+                <div class="slider-arrow review-card__arrow-right">
+                    <img src="./images/arrow-right.svg" alt="вперед">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="notification">
+        <form class="form">
+            <h3 class="form__title">Подписаться на новости мероприятия</h3>
+            <p>
+                <label for="notification-email">Email</label>
+                <input id="notification-email" type="email" placeholder="example@yandex.ru" required>
+            </p>
+            <p>
+                <label><input type="checkbox" required> Я согласен с условиями обработки личных данных</label>
+            </p>
+            <button>Подписаться</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer__col">
+            <h4>Связаться с нами</h4>
+            <a href="tel:74842234567">+7 (4842) 23-45-67</a>
+            <a href="mailto:family@cosmos.ru">family@cosmos.ru</a>
+        </div>
+
+        <div class="footer__col">
+            <h4>Навигация</h4>
+            <a href="#">Главная</a>
+            <a href="#">Главная-светлая</a>
+            <a href="#">Регистрация</a>
+            <a href="#">Конкурс</a>
+            <a href="#">Личный кабинет</a>
+            <a href="#">Страница не найдена</a>
+        </div>
+    </footer>
 </body>
 </html>

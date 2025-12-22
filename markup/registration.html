@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/registration.css">
     <title>Title</title>
 </head>
 <body>
-
+    <section class="registration">
+        <form class="form-container">
+            <div class="form">
+                <h3 class="form__title">Регистрация</h3>
+                <p>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="example@yandex.ru" required>
+                </p>
+                <p>
+                    <label for="firstname">Имя</label>
+                    <input id="firstname" type="text" placeholder="Иван" required>
+                </p>
+                <p>
+                    <label for="surname">Фамилия</label>
+                    <input id="surname" type="text" placeholder="Иванов   " required>
+                </p>
+                <p>
+                    <label for="age">Возраст</label>
+                    <input class="form__input-error" id="age" type="number" placeholder="18" required>
+                    <span class="form__input-error__text">
+                        Значение должно быть указано
+                    </span>
+                </p>
+                <p>
+                    <label for="sex">Пол</label>
+                    <select name="sex" id="sex">
+                        <option>Мужской</option>
+                        <option>Женский</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="password">Пароль</label>
+                    <input class="form__input-error" id="password" type="password" placeholder="***********" required>
+                    <span class="form__input-error__text">
+                        Пароли не совпадают
+                    </span>
+                </p>
+                <p>
+                    <label for="password-confirmation">Повтор пароля</label>
+                    <input id="password-confirmation" type="password" placeholder="***********" required>
+                </p>
+                <p>
+                    <label class="label-file">
+                        <input type="file">
+                        Нажмите чтобы загрузить фотографию
+                    </label>
+                </p>
+                <p>
+                    <label><input type="checkbox" required> Я согласен с условиями обработки личных данных</label>
+                </p>
+                <button>Зарегистрироваться</button>
+            </div>
+            <div class="form">
+                <h3 class="form__title">Члены семьи</h3>
+                <p>
+                    <label for="surname-1">Фамилия</label>
+                    <input id="surname-1" type="text" placeholder="Иванов   " required>
+                </p>
+                <p>
+                    <label for="firstname-1">Имя</label>
+                    <input id="firstname-1" type="text" placeholder="Иван" required>
+                </p>
+                <p>
+                    <label for="age-1">Возраст</label>
+                    <input id="age-1" type="number" placeholder="18" required>
+                </p>
+                <p>
+                    <label for="sex-1">Пол</label>
+                    <select name="sex-1" id="sex-1">
+                        <option>Мужской</option>
+                        <option>Женский</option>
+                    </select>
+                </p>
+                <button type="button">Добавить ешё участника</button>
+            </div>
+        </form>
+    </section>
 </body>
 </html>
