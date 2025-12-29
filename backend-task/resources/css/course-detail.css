@@ -1,0 +1,4 @@
+.actions button{
+    flex-shrink: 0;
+    text-wrap: nowrap;
+}

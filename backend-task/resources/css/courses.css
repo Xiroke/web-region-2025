@@ -1,0 +1,42 @@
+.block__image {
+  border-radius: 8px;
+  width: 100%;
+  aspect-ratio: 1.8;
+  object-fit: cover;
+}
+
+.block__description {
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.block__stat__title {
+  font-size: 14px;
+}
+
+.block__stat__value {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.block__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 12px;
+}
+
+.block__action {
+  margin-top: 20px;
+}
+
+.courses-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.courses_pagination {
+  margin-top: 20px;
+}

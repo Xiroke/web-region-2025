@@ -1,0 +1,11 @@
+.login {
+  display: flex;
+  padding: 0;
+  align-items: stretch;
+}
+
+.login__image {
+  object-fit: cover;
+  object-position: center;
+  width: 50%;
+}

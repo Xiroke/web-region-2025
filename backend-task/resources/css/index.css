@@ -1,0 +1,8 @@
+.block .btn {
+  margin-top: 100px;
+}
+
+.main__actions {
+  display: flex;
+  gap: 20px;
+}
